@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="22671321_DangHoangViet_Tuan2" content="HTML-CSS">
+    <title>Bài 2</title>
+    <style>
+        .container {
+            width: 1700px;
+            height: 800px;
+            margin: auto;
+        }
+        *{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            width: 100%;
+            height: 183px;
+            position: relative;
+        }
+        .background {
+            width: 100%;
+            height: 183px;
+            position: absolute;
+           z-index: 1; 
+        }
+        .logo {
+            position: absolute;
+            z-index: 2;
+        }
+        .title {
+            position: absolute;
+            z-index: 2;
+            font-size: 50px;
+            margin-left: 200px;
+            margin-top: 60px;
+            color: white;
+        }
+        .link1{
+            width: 100%;
+            height: 50px;
+            background-color: darkgrey;
+        }
+        nav.link1 ul {
+            list-style-type: none;
+
+        }
+        nav.link1 ul li { 
+            margin-left: 20px;
+            display: inline-block; /*cho các li nằm theo chiều ngan */
+            color: white;
+            margin-top: 7px;
+            font-size: 30px;
+        }
+        nav.link1 ul li a {
+            color: white;
+            text-decoration: none; /* xóa gạch chân link */
+        }
+        .link2{
+            width: 20%;
+            height: 500px;
+            float: right;
+        }
+        nav.link2 ul {
+            margin-bottom: 50px;
+            margin-left: 30px;
+            list-style-type: none;
+        }
+        nav.link2 ul li {
+            font-size: 25px;
+        }
+        nav.link2 ul li a,h1 {
+            text-decoration: none;
+            color: red;
+        }
+        .nav-link2 li a {
+            display: inline-block;
+            margin: 10px;
+        }
+        section {
+            width: 55%;
+            height: 500px;
+            float: right
+        }
+        .article1 {
+            margin-top: 30px;
+            width: 100%;
+            height: 200px;
+            font-size: 35px;
+        }
+        .article2{
+            font-size: 35px;
+        }
+        aside {
+            width: 20%;
+            height: 450px;
+            float: left;
+            font-size: 30px;
+            margin-left: 20px;
+            margin-top: 20px;
+            border-style: groove;
+        }
+        footer {
+            width: 100%;
+            height: 60px;
+            clear: both;
+            background-color: darkgrey;
+            color: white;
+        }
+        address p {
+            position: absolute;
+            margin-top: 25px;
+            margin-left: 15px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../images/logo.png" class="logo">
+            <img src="../images/background.png" class="background">
+            <div class="title">
+                <p><b>YOKO'S KITCHEN</b></p>
+                <p style="font-size: 20px;"><b>JAPANESE COOKING CLASSES</b></p>
+            </div>
+        </header>
+
+        <nav class="link1">
+            <ul>
+                <li><a href="#" style="color: black;">home</a></li>
+                <li><a href="#">classes</a></li>
+                <li><a href="#">catering</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <nav class="link2"> 
+            <h1>Popular Recipies</h1>
+            <ul class="nav-link2">
+                <li><a href="#">Yakitori (grilled chicken)</a></li>
+                <li><a href="#">Tsukune (minced chicken patties)</a></li>
+                <li><a href="#">Okonomiyaki (savory pancakes)</a></li>
+                <li><a href="#">Mizutaki (chicken stew)</a></li>
+            </ul>
+            <h1>Contact</h1>
+            <ul style="margin-left: 0px;" >
+                <li><a href="#" style="color: black;">Yoko's Kitchen</a></li>
+                <li><a href="#" style="color: black;">27 Redchurch Street</a></li>
+                <li><a href="#" style="color: black;">Shoreditch</a></li>
+                <li><a href="#" style="color: black;">London E2 7DP</a></li>
+            </ul>
+
+        </nav>
+
+        <section>
+            <article class="article1">
+                <p style="font-size: 40px;"> Japanese Vegetarian</p>
+                <h1>Five week course in London</h1>
+                <p>
+                    A five week introduction to traditional Japanese vegetarian meals, 
+                    teaching you a selection of rice and noodle dishes.
+                </p>
+
+            </article>
+            <article class="article2">
+                <p style="font-size: 40px;">Sauces Masterclass</p>
+                <h1>One day workshop</h1>
+                <p>An intensive one-day course looking at how to create the most 
+                    delicious sauces for use in a range of Japanese cookery.
+                </p>
+            </article>
+        </section>
+
+        <aside>
+            <img src="../images/teriyaki.jpg" style="width: 330px; margin-top: 10;">
+            <p>Teriyaki Sauce</p>
+        </aside>
+        <footer>
+            <address>
+               <p>@ 2011 Yoko's Kitchen</p>
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
