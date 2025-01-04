@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="22671321_ĐặngHoàngViệt_Tuần4" content="HTML-CSS-BOOTSTRAP">
+    <link rel="stylesheet" href="../css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../css/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bai3a</title>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myLogin">
+            Login
+        </button>   
+    </div>
+    <div class="modal" id="myLogin">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="ms-3 me-3 mt-3">
+                <!-- Modal head -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-2">
+                            <label for="Email" class="form-lable">Email</label>
+                            <input type="text" class="form-control" id="Email" placeholder="Enter email" name="Email">
+                        </div>
+                        <div class="mb-2">
+                            <label for="pwd" class="form-lable">Password</label>
+                            <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                        </div>
+                        <div>
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

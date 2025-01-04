@@ -1,0 +1,15 @@
+.text-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+}
+.size-holder{
+    width: 60%;
+}
+.size-number{
+    width: 104%;
+}
+.size-CVC{
+    width: 80%;
+}

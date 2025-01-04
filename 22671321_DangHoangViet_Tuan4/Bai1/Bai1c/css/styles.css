@@ -1,0 +1,18 @@
+img{
+    width: 50%;
+    height: auto;
+}
+/* hover cho bảng */
+.table-hover tbody tr:hover{
+    background-color: beige;
+}
+/* hover cho element */
+.edit-column:hover{
+    cursor:pointer; /*cho con chuột biết thành hình bàn tay*/
+    background-color: bisque;
+    color: blue;
+}
+.custom-img{
+    width: 50px;
+    height: 50px;
+}
