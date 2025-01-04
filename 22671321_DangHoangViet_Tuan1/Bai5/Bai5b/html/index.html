@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="22671321_DangHoangViet_Tuan1" content="HTML co ban">
+    <title>Bài 5b</title>
+    <style>
+        .centered-inline{
+            text-align: center;
+        }
+        table {
+        border: 3px solid purple; /* Đặt màu và độ rộng cho viền */
+        border-collapse: collapse; /* Để viền trở nên liền mạch */
+        width: 100%; /* Để bảng chiếm đầy đủ chiều rộng của phần tử cha */
+        }
+        td,tr,th{
+            border: 1px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-inline">
+        All time list in central
+    </div>
+    <table>
+        <tr>
+            <th style="width: 50px;">Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wenesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+           <th>6:00</th>
+           <td colspan="7">National news</td> 
+        </tr>
+        <tr>
+            <th>6:30</th>
+            <td colspan="7">Local news</td>
+        </tr>
+        <tr>
+            <th>7:00</th>
+            <td rowspan="2" style="vertical-align: top;">Opera Fest</td>
+            <td rowspan="2" style="vertical-align: top;">Radio U</td>
+            <td rowspan="2" style="vertical-align: top;">Science</td>
+            <td rowspan="2" style="vertical-align: top;">The living world</td>
+            <td>Word Play</td>
+            <td>Agri Week</td>
+            <td rowspan="2" style="vertical-align: top;">Flok Fest</td>
+        </tr>
+        <tr>
+            <th>7:30</th>
+            <td>Brain Stew</td>
+            <td>Bismark Forum</td>
+        </tr>
+        <tr>
+            <th>8:00</th>
+            <td rowspan="4" colspan="4" style="vertical-align: top;"> 
+                <div>
+                    The Clas musical connection
+                </div>
+            </td>
+            <td>Old time Radio</td>
+            <td rowspan="4" style="vertical-align: top;">Saturday Nite Jazz</td>
+            <td rowspan="4" style="vertical-align: top;">The Indie connection</td>
+        </tr>
+        <tr>
+            <th>8:30</th>
+            <td>The Inner Mind</td>
+        </tr>
+        <tr>
+            <th>9:00</th>
+            <td>Open Mike Nite</td>
+        </tr>
+        <tr>
+            <th>9:30</th>
+            <td>Relax</td>
+        </tr>
+        <tr>
+            <th>10:00</th>
+            <td colspan="7">World News Feed</td>
+        </tr>
+    </table>
+</body>
+</html>
